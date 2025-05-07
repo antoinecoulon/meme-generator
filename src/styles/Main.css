@@ -1,0 +1,32 @@
+main {
+  width: 800px;
+  border: 1px solid #003049;
+  margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #003049;
+}
+
+.input-row {
+    margin-top: 8px;
+}
+
+.top-text,
+.bottom-text {
+    padding: px 32px;
+    margin: 8px;
+}
+
+.image {
+  width: 600px;
+  margin: 8px;
+}
+
+.image > img {
+    width: 100%;
+}
