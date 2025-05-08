@@ -8,3 +8,7 @@ header {
   background-color: #003049;
   color: #fcbf49;
 }
+
+header > img {
+  width: 32px;
+}
