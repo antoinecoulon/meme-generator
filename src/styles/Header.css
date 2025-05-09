@@ -1,12 +1,12 @@
 header {
-  height: 160px;
+  height: 120px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  background-color: #003049;
-  color: #fcbf49;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
 }
 
 header > img {

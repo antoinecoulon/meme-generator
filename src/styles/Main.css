@@ -2,7 +2,7 @@ main {
   margin-top: 36px;
   padding: 36px;
   max-width: 600px;
-    background-color: #003049;
+  background: transparent;
 }
 
 .form {
