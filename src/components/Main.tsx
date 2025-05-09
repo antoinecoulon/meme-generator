@@ -10,7 +10,7 @@ export default function Main() {
     
     return (
         <main>
-            <div className="container">
+            
                 <section className='form'>
                     <input type="text" className="top-text" />
                     <input type="text" className="bottom-text" />
@@ -21,7 +21,7 @@ export default function Main() {
                     <span className="top">{meme.topText}</span>
                     <span className="bottom">{meme.bottomText}</span>
                 </div>
-            </div>
+            
         </main>
     )
 }
