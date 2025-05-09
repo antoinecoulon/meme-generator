@@ -1,5 +1,5 @@
 main {
-  margin-top: 36px;
+  margin-top: 16px;
   padding: 36px;
   max-width: 600px;
   background: transparent;
@@ -16,20 +16,23 @@ main {
   width: 100%;
   margin-top: 5px;
   border-radius: 5px;
-  border: 1px solid #D5D4D8;
+  border: 1px solid #711f8d;
   text-indent: 5px;
+  font-family: "Chivo", sans-serif;
 }
 
 .form button {
   grid-column: 1 / -1;
   border-radius: 5px;
-  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
   color: white;
   border: none;
   cursor: pointer;
+  font-family: "Chivo", sans-serif;
 }
 
-.form input, .form button {
+.form input,
+.form button {
   min-height: 40px;
 }
 
@@ -57,16 +60,9 @@ main {
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
-  text-shadow:
-      2px 2px 0 #000,
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      0 2px 0 #000,
-      2px 0 0 #000,
-      0 -2px 0 #000,
-      -2px 0 0 #000,
-      2px 2px 5px #000;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
 }
 
 .bottom {
